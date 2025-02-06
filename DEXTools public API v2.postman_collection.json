@@ -21,14 +21,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/blockchain/{{chain}}",
+							"raw": "https://public-api.dextools.io/trial/v2/blockchain/{{chain}}",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"blockchain",
 								"{{chain}}"
@@ -49,14 +50,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/blockchain/?sort=name&order=asc",
+							"raw": "https://public-api.dextools.io/trial/v2/blockchain/?sort=name&order=asc",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"blockchain",
 								""
@@ -93,14 +95,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/dex/{{chain}}/{{factoryAddress}}",
+							"raw": "https://public-api.dextools.io/trial/v2/dex/{{chain}}/{{factoryAddress}}",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"dex",
 								"{{chain}}",
@@ -122,14 +125,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/dex/{{chain}}?sort=name&order=asc&page=0&pageSize=20",
+							"raw": "https://public-api.dextools.io/trial/v2/dex/{{chain}}?sort=name&order=asc&page=0&pageSize=20",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"dex",
 								"{{chain}}"
@@ -174,14 +178,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/pool/{{chain}}/{{poolAddress}}",
+							"raw": "https://public-api.dextools.io/trial/v2/pool/{{chain}}/{{poolAddress}}",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"pool",
 								"{{chain}}",
@@ -203,14 +208,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/pool/{{chain}}/{{poolAddress}}/liquidity",
+							"raw": "https://public-api.dextools.io/trial/v2/pool/{{chain}}/{{poolAddress}}/liquidity",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"pool",
 								"{{chain}}",
@@ -233,14 +239,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/pool/{{chain}}/{{poolAddress}}/score",
+							"raw": "https://public-api.dextools.io/trial/v2/pool/{{chain}}/{{poolAddress}}/score",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"pool",
 								"{{chain}}",
@@ -263,14 +270,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/pool/{{chain}}/{{poolAddress}}/price",
+							"raw": "https://public-api.dextools.io/trial/v2/pool/{{chain}}/{{poolAddress}}/price",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"pool",
 								"{{chain}}",
@@ -293,14 +301,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/pool/{{chain}}?sort=creationTime&order=desc&from=2023-12-01T00:00:00.000Z&to=2099-01-01T00:00:00.000Z&page=0&pageSize=20",
+							"raw": "https://public-api.dextools.io/trial/v2/pool/{{chain}}?sort=creationTime&order=desc&from=2023-12-01T00:00:00.000Z&to=2099-01-01T00:00:00.000Z&page=0&pageSize=20",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"pool",
 								"{{chain}}"
@@ -352,14 +361,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/token/{{chain}}/{{address}}",
+							"raw": "https://public-api.dextools.io/trial/v2/token/{{chain}}/{{address}}",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"token",
 								"{{chain}}",
@@ -381,14 +391,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/token/{{chain}}?sort=socialsInfoUpdated&order=desc&from=2023-12-01T00:00:00.000Z&to=2099-11-01T00:00:00.000Z&page=0&pageSize=10",
+							"raw": "https://public-api.dextools.io/trial/v2/token/{{chain}}?sort=socialsInfoUpdated&order=desc&from=2023-12-01T00:00:00.000Z&to=2099-11-01T00:00:00.000Z&page=0&pageSize=10",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"token",
 								"{{chain}}"
@@ -435,14 +446,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/token/{{chain}}/{{address}}/pools/?sort=creationTime&order=desc&from=2000-12-01T00:00:00.000Z&to=2099-11-01T00:00:00.000Z&page=0&pageSize=10",
+							"raw": "https://public-api.dextools.io/trial/v2/token/{{chain}}/{{address}}/pools/?sort=creationTime&order=desc&from=2000-12-01T00:00:00.000Z&to=2099-11-01T00:00:00.000Z&page=0&pageSize=10",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"token",
 								"{{chain}}",
@@ -492,14 +504,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/token/{{chain}}/{{address}}/locks",
+							"raw": "https://public-api.dextools.io/trial/v2/token/{{chain}}/{{address}}/locks",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"token",
 								"{{chain}}",
@@ -522,14 +535,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/token/{{chain}}/{{address}}/info",
+							"raw": "https://public-api.dextools.io/trial/v2/token/{{chain}}/{{address}}/info",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"token",
 								"{{chain}}",
@@ -552,14 +566,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/token/{{chain}}/{{address}}/price",
+							"raw": "https://public-api.dextools.io/trial/v2/token/{{chain}}/{{address}}/price",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"token",
 								"{{chain}}",
@@ -587,14 +602,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/ranking/{{chain}}/hotpools",
+							"raw": "https://public-api.dextools.io/trial/v2/ranking/{{chain}}/hotpools",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"ranking",
 								"{{chain}}",
@@ -616,14 +632,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/ranking/{{chain}}/gainers",
+							"raw": "https://public-api.dextools.io/trial/v2/ranking/{{chain}}/gainers",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"ranking",
 								"{{chain}}",
@@ -645,14 +662,15 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-dev.dextools.io/v2/ranking/{{chain}}/losers",
+							"raw": "https://public-api.dextools.io/trial/v2/ranking/{{chain}}/losers",
 							"protocol": "https",
 							"host": [
-								"api-dev",
+								"public-api",
 								"dextools",
 								"io"
 							],
 							"path": [
+								"trial",
 								"v2",
 								"ranking",
 								"{{chain}}",
